@@ -1,0 +1,424 @@
+<resources>
+    <string name="app_name">Careem</string>
+    <string name="title_activity_map">Careem web app</string>
+
+    <string name="google_predictions_api_key">AIzaSyCraky_VndGPN1k2bAqOqiSz8Kc2FEyafM</string>
+    <string name="google_maps_api_key">AIzaSyDnKdXlv5lStHzJjhIoe08s0Bw4ZcQUB18</string>
+
+
+    <!-- developer options -->
+    <string name="test_custom_server_base_url">http://10.0.4.X:8080</string>
+    <string name="test_release_server_base_url">http://server.test.release.ridewithvia.com:8080</string>
+    <string name="test_master_server_base_url">http://server.test.master.ridewithvia.com:8080</string>
+    <string name="test_release_ci_server_base_url">http://server.test.release.ci.ridewithvia.com:8080</string>
+    <string name="test_master_ci_server_base_url">http://server.test.master.ci.ridewithvia.com:8080</string>
+    <string name="test_multi_server_base_url">http://server.test-multi.ridewithvia.com:8080</string>
+    <string name="sim_server_base_url">https://server.sim.ridewithvia.com:8443</string>
+    <string name="stage_server_base_url">http://server.stage.ridewithvia.com:8080</string>
+    <string name="settings_server_down">Server is down</string>
+    <string name="settings_services_down">Server is up. Services are down</string>
+
+    <string name="braintree_key_sandbox">MIIBCgKCAQEArluScuVREzotnjR1O8uI6MyCSwhaMdaxbSP2s5loLsJpN6Sf11DSG22JTAucN1SqKx8WJwSyla1xC4RaaJ7FZqw8MparU4zmb1GtuwbV9hDQw0Q4nAZ7b4UsyhywyTu56py1hMrYB4p8Do8JC2iNDu8gpjNKJxCJhNwPoZs7yqw2VS6OLLC9UTCjSOsCWuWK/Tw+Z7Vp3TRab4zNwfRqXJP9yvKRZZq3NcmAbOKhHHPYjjetmVH3eGxt6pPO06yCf3tkXUneTDReXLowDId0cLu5ktfdmOLndVYXP+yHJcW+SOZDD31/Vhzosb4QgPJX1nwV98FwXPyPg6Dj8KOmRwIDAQAB</string>
+    <string name="braintree_key_production">MIIBCgKCAQEAuDgPSOHgptp9alGecclX0tiOgzlSNXWQgkgV2HDAYy9z36qwycBEVN6Mbj20wi5LudBFqJ5nVRWHeW9lwdKKWBG4wZtE09nEp1W4KQENp020E61oXykbekYSM+/lEyJVL+3NfHl6ckj4BL4978rUgpd0ATCTz0JLK4rgc5I+oy0nvvhHcMqDC79eSCEiukeGBd/TBcMaktUvbOL5LGg4JzgHDeGvg9pegKJ9/OQVnm8v+odAkzWq4oxXgeoSBe3TUqN8xcZB5vcloUXonbK5Hb25UU4TZAhorN3s71OuBaX67dwIR99l7605elXFDdQqwsTKO9aZdjfra+MSIpOY5QIDAQAB</string>
+
+    <string name="sinch_key">55185ba8-2c6b-4cfe-9966-e640321e696c</string>
+
+    <string name="bugfender_app_id">JqTMXICD1kmjEqF0T4bPwH3rlwRhdiz5</string>
+
+    <string name="google_app_id">380860449926</string>
+
+    <string name="vertical_line">|</string>
+
+    <!-- Typefaces -->
+    <string name="typeface.accordBold">AccordBold.otf</string>
+    <string name="typeface.accordExtraBold">AccordExtraBold.otf</string>
+    <string name="typeface.accordExtraLight">AccordExtraLight.otf</string>
+    <string name="typeface.accordLight">AccordLight.otf</string>
+    <string name="typeface.accordMedium">AccordMedium.otf</string>
+    <string name="typeface.accordReg">AccordReg.otf</string>
+    <string name="typeface.accordThin">AccordThin.otf</string>
+    <string name="typeface.robotoLight">Roboto-Light.ttf</string>
+
+    <string name="login">Log In</string>
+    <string name="set_pickup">Set Pickup</string>
+    <string name="set_dropoff">Set Dropoff</string>
+    <string name="choose_dropoff_location">Choose dropoff location</string>
+    <string name="search_or_move_map">Search or move map</string>
+    <string name="set_dropoff_search_move">Select your dropoff location</string>
+    <string name="out_of_zone">Out of Zone</string>
+    <string name="next">Next</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ok">OK</string>
+    <string name="okay">Okay</string>
+    <string name="proposal_confirmation_expiry_countdown">This offer is available for:</string>
+    <string name="sec">sec</string>
+    <string name="error_server">Oh dear! There\'s no one there. We may be experiencing a technical issue or your phone\'s connection to the internet may be acting up. Please check your signal and try again.</string>
+    <string name="no_connection_error">Oh dear, it looks like your phone doesn\'t have a cell or WiFi connection right now! Please try again once you\'re connected!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="main_screen_hint_one">On-demand Transit</string>
+    <string name="open_location_settings">Settings</string>
+    <string name="please_enable_location">Please enable location services</string>
+    <string name="unregistered_user">Unregistered user</string>
+    <string name="waiting_location">Waiting for location&#8230;</string>
+    <string name="exact_location_not_found">Exact location not found</string>
+    <string name="setting_pickup_location">Setting Pickup Location&#8230;</string>
+    <string name="promo_cost">- %s</string>
+
+    <!-- login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="login_progress_logging_in">Logging in…</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="create_new_account">Don\'t have an account yet?</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="go">Go</string>
+    <string name="auth_error_msg">An error has occurred - please login to your account.</string>
+
+    <!-- sign up -->
+    <string name="prompt_first_name">First Name</string>
+    <string name="prompt_last_name">Last Name</string>
+    <string name="check_availability_progress">Checking availability…</string>
+    <string name="promo_code">Promo Code</string>
+    <string name="scan_card">Scan Your Card</string>
+    <string name="take_new_photo">Take a new photo</string>
+    <string name="choose_from_existing">Choose from existing</string>
+    <string name="delete_current_photo">Delete current photo</string>
+
+    <string-array name="photo_options_create">
+        <item>@string/take_new_photo</item>
+        <item>@string/choose_from_existing</item>
+    </string-array>
+    <string-array name="photo_options_delete">
+        <item>@string/take_new_photo</item>
+        <item>@string/choose_from_existing</item>
+        <item>@string/delete_current_photo</item>
+    </string-array>
+    <string name="photos_folder_name">UserPhotos</string>
+    <string name="logs_folder_name">Logs</string>
+    <string name="photo_name" formatted="false">Photo%d.jpg</string>
+
+    <!-- credit card -->
+    <string name="error_invalid_credit_card">That\'s not a proper credit card number</string>
+    <string name="pref_server_title">Server</string>
+    <string name="settings_title">Settings</string>
+    <string name="action_about">About</string>
+    <string name="about_title">About</string>
+    <string name="my_next_journeys_title">Next Journeys</string>
+    <string name="software_licenses_title">Open-source Licenses</string>
+    <string name="terms_of_use_title">Terms of Use</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="faqs_title">FAQs</string>
+    <string name="version">Version %1$s (%2$s)</string>
+    <string name="version_new_style">V%1$s (%2$s)</string>
+    <string name="action_sign_out">Log Out</string>
+    <string name="logout_no">No, Stay</string>
+    <string name="logout_yes">Yes, Log Out</string>
+    <string name="logout_message">Are you sure you want to log out?</string>
+    <string name="action_promo_codes">Promo Codes</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="log_in_title">Log In</string>
+    <string name="promo_code_title">Promo Codes</string>
+    <string name="save">Save</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="change_password">Edit Password</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit">Edit</string>
+    <string name="set_pickup_location_title">Pickup:</string>
+    <string name="set_pickup_location_title_your_current_location">Pickup (Your current location):</string>
+    <string name="set_dropoff_location_title">Dropoff:</string>
+    <string name="set_dropoff_location_distance_title">Dropoff (%1$s Miles):</string>
+    <string name="set_dropoff_default_address_hint">Search or find on map</string>
+    <string name="pickup_location_title">Pickup:</string>
+    <string name="dropoff_location_title">Dropoff:</string>
+    <string name="current_pickup_location_toast">Pickup at your current location</string>
+    <string name="home_location_title">Home Address:</string>
+    <string name="work_location_title">Work Address:</string>
+    <string name="custom_location_title">Address:</string>
+    <string name="address_suggestions">Suggestions</string>
+    <string name="address_recent">Recent</string>
+    <string name="dropoff_default_address">Tap here or move map</string>
+    <string name="pickup_default_address">Pickup Marker Location</string>
+    <string name="favorite_pickup_address">Unknown Address</string>
+    <string name="pref_custom_server_base_url_title">Custom server base URL</string>
+    <string name="pref_phone_verification">Mobile verification</string>
+    <string name="pref_coachmarks">Coachmarks</string>
+    <string name="apache2_license">Licensed under the Apache License, Version 2.0</string>
+    <string name="mit_license">Licensed under the The MIT License (MIT)</string>
+    <string name="copied_to_clipboard">Your code has been copied and can now be pasted. Happy referring!</string>
+    <string name="pref_distance_pricing_title">Enable distance based pricing</string>
+
+    <!-- spread the love -->
+    <string name="error_no_sendmail_activity">Sorry! No suitable mail-sending app was found!</string>
+    <string name="error_no_sendsms_activity">Sorry! No suitable SMS-sending app was found!</string>
+    <string name="general_sharing_error">Sorry! No suitable sharing option found!</string>
+    <string name="general_sharing_exceptoin">Sorry! We can\'t share this right now!</string>
+    <string name="share">Share</string>
+    <string name="share_using">Share using</string>
+
+    <!-- Boarding pass screen -->
+    <string name="title_activity_boarding_pass">Boarding Pass</string>
+    <string name="button_close">Close</string>
+    <string name="show_to_driver">Show it to your driver</string>
+    <string name="boarding_pass_driver">Driver</string>
+    <string name="boarding_pass_pickup">Pickup</string>
+    <string name="boarding_pass_call_driver">Call Driver</string>
+
+    <string name="favorites_home_address">Home</string>
+    <string name="favorites_work_address">Work</string>
+    <string name="favorites_set_home_address">Set Home Address</string>
+    <string name="favorites_set_work_address">Set Work Address</string>
+    <string name="favorites_set_location">Set Location</string>
+    <string name="favorites_name_hint">Name it</string>
+    <string name="favorites_work">Work</string>
+    <string name="favorites_home">Home</string>
+    <string name="favorites_loc_not_selected">Please select a name</string>
+    <string name="favorites_already_exists">Name already exists. Please rename and try again.</string>
+    <string name="favorite_remove_confirmation_message">Are you sure you want to delete %s address?</string>
+
+    <string name="appsflyer_dev_key">R365zqk3hRRL6ufTw4mjve</string>
+
+    <!-- Verify phone -->
+    <string name="verify_phone_title">Verify Your Number</string>
+    <string name="verify_message" formatted="false">We\'ve texted a 4-digit verification code \nto #a#%s#a#. Please enter it below.</string>
+    <string name="resend_code">Didn\'t receive a code? Resend.</string>
+    <string name="call_me_instead">Call me instead</string>
+    <string name="contact_us">Still having trouble? Contact us.</string>
+    <string name="couldnt_start_email_app">Couldn\'t start email application</string>
+    <string name="incorrect_code">Whoops, that code isn\'t correct! Please double check the SMS you received. Still having trouble? Hit the \"resend\" link on this page.</string>
+    <string name="code_sent">Code sent!</string>
+    <string name="already_verified">Your number has already been verified - you can move on to the next step!</string>
+    <string name="phone_verification_error">Our glasses may not be working, but can you please check your phone number again?</string>
+    <string name="verification_mail_body_with_rider_id">\n\n\n\n\n----\nPhone number: %1$s\nApp version: %2$s (%3$s)\nRider ID: %4$s</string>
+
+    <!-- toolbar strings -->
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <!-- forgot password -->
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="forgot_password_send">Send</string>
+    <string name="forgot_password_bottom_hint">Type in your number above and we’ll text you a new password!</string>
+
+    <!-- add billing -->
+    <string name="done">Done</string>
+    <string name="join">Join</string>
+    <string name="credit_card_info">Credit Card Info</string>
+    <string name="credit_card_details">●●●●    ●●●●    ●●●●    %1$s</string>
+    <string name="enter_new_info">Enter your new credit card info:</string>
+    <string name="enter_new_cc_edit_info">Update your credit card info</string>
+    <string name="enter_new_cc_edit_warning">Note this will replace card ending in %1$s</string>
+    <string name="promo_code_exist">Promo code: %1$s</string>
+    <string name="credit_card_expire">MM/YY</string>
+    <string name="credit_card_cvv">CVV</string>
+    <string name="card_number_hint">1234  5678  9012  3456</string>
+
+    <!-- edit credit card -->
+    <string name="edit_cc_add_title">Add Card</string>
+    <string name="edit_cc_edit_title">Edit Card</string>
+    <string name="edit_cards_your_cards">Your credit cards</string>
+    <string name="edit_cards_you_can_add_cb_card">You can add your commuter benefits card or your business card</string>
+    <string name="edit_cards_you_can_add_business_card">You can also add your business card</string>
+    <string name="edit_cards_add_card">Add Card</string>
+    <string name="edit_card_enable_autorefill_for_new_default">A friendly heads up that you currently have auto-refill enabled. Would you like to keep it on with your new card?</string>
+    <string name="edit_card_remove_confirmation">Are you sure you want to delete the card ending in %1$s?</string>
+    <string name="edit_card_set_default_confirmation">Are you sure you want to change your default card?</string>
+    <string name="edit_card_remove_default_keep_autorefill">A friendly heads up that you currently have auto-refill enabled. Would you like to keep it with your default card?</string>
+
+    <!-- promo code -->
+    <string name="promo_code_hint">Enter a promo or referral code</string>
+    <string name="promo_codes_hint_authorized">Enter a promo or referral code</string>
+    <string name="promo_code_error">Wrong promo code, Try again</string>
+
+    <!-- ride credit and billing -->
+    <string name="ride_credit_auto_refill">Auto Refill</string>
+    <string name="ride_credit_always_pay">Always pay the lowest fares.</string>
+    <string name="ride_credit_balance_value">%1$s</string>
+    <string name="select_card">Selected card:</string>
+    <string name="ride_credit_insert_amount">Insert amount of credit:</string>
+    <string name="ride_credit_customized_pack">Customized Pack</string>
+    <string name="ride_credit_your_own_amount">your own amount</string>
+    <string name="ride_credit_insert_amount_for_purchase"></string>
+    <string name="ride_credit_question_hint_link_bar">Curious about unlimited rides?</string>
+    <string name="ride_credit_suggestion_hint_link_bar">Check out ViaPass!</string>
+
+    <!-- About screen -->
+    <string name="couldnt_launch_market">Couldn\'t launch the market</string>
+    <string name="about_rate_button">Rate Us</string>
+    <string name="about_feedback_button">Send Feedback</string>
+    <string name="about_mail_body_version">\n\n\n----\nApp version: %1$s (%2$s)\nRider ID: %3$s</string>
+    <string name="about_follow_us">Follow Us</string>
+    <string name="about_like_us">Like Us</string>
+    <string name="chicago_email">BACPPV@cityofchicago.org</string>
+    <string name="chicago_phone_local">311</string>
+    <string name="chicago_phone_non_local">312-744-5000</string>
+    <string name="about_copyright">Copyright © %d Via Transportation Inc.</string>
+
+    <string name="credit_balance_buy">Buy Credit</string>
+    <string name="credit_balance_no">No Thanks</string>
+
+    <!-- country search -->
+    <string name="countries_title">Country code</string>
+    <string name="countries_search">Country name or phone code</string>
+
+    <!-- Info popups -->
+    <string name="popup_set_pickup_title">Set your pickup location.</string>
+    <string name="popup_scroll_description">You can also set your Pickup and Dropoff locations by moving the map.</string>
+
+    <!--Map-->
+    <string name="passengers_count_title">Passengers:</string>
+    <string name="passengers_one">Just me</string>
+    <string name="passengers_two">There\'s two of us</string>
+    <string name="passengers_three">We\'re three</string>
+    <string name="passengers_four">Party of four</string>
+    <string name="cost">Cost:</string>
+    <string name="boarding_pass">Boarding Pass</string>
+    <string name="pickup_at">Pickup at:</string>
+    <string name="dropoff">Dropoff:</string>
+    <string name="pay_with">Pay with:</string>
+    <string name="dropoff_eta">ETA:</string>
+
+    <!-- Price break down -->
+    <string name="total">Total</string>
+    <string name="plus_tax">+Tax</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Ride feedback -->
+    <string name="have_something_to_say">Write your review here...</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="no_thanks">No, thanks</string>
+    <string name="pickup_wait_time">Pickup wait time</string>
+    <string name="route_selection">Route selection</string>
+    <string name="pickup_dropoff_location">Pickup/dropoff location</string>
+    <string name="issue_with_driver">Issue with driver</string>
+    <string name="vehicle_cleanliness">Vehicle cleanliness</string>
+    <string name="other">Other</string>
+    <string name="what_could_be_better">What could be better?</string>
+    <string name="help_us_nderstand_how_to_improve">Help us understand how to improve our service</string>
+    <string name="rate_thank_you">Thank You!</string>
+
+    <!-- history -->
+    <string name="history_empty_welcome">No History Exists Yet!</string>
+    <string name="history_remaining_credit">Remaining Credit:</string>
+    <string name="history_ride_no_show_refunded">No Show Refunded</string>
+    <string name="history_no_show_charged">No Show Charged</string>
+    <string name="history_passengers_count_change">Passengers Count Change</string>
+    <string name="history_refund_credit">Credit Purchase Refund</string>
+    <string name="history_bonus">Promo Code Redeemed</string>
+    <string name="history_manual_payment">Manual Payment</string>
+    <string name="history_manual_payment_refunded">Manual Payment Refunded</string>
+    <string name="history_credit_purchase">Credit Purchase</string>
+    <string name="history_referral_credit">Referral Credit Granted</string>
+    <string name="history_referral_user_referrer">Thank %1$s for the referral</string>
+    <string name="history_failed">Failed</string>
+    <string name="history_no_internet_error">It seems there was a network error trying to load your history, tap to retry</string>
+    <string name="history_loading">Loading History&#8230;</string>
+    <string name="history_cancellation_charged">Cancellation Charged</string>
+    <string name="history_cancellation_refunded">Cancellation Refunded</string>
+
+    <!-- history details -->
+    <string name="history_details_one_passenger">1 Passenger</string>
+    <string name="history_details_multiple_passengers">%1$d Passengers</string>
+    <string name="history_details_driver">Driver: %1$s</string>
+    <string name="history_details_payment_method">Payment Method</string>
+    <string name="history_details_charged_to_card">Charged to card</string>
+    <string name="history_details_refunded_to_card">Refunded to card</string>
+    <string name="history_details_free_ride">Free</string>
+
+    <!-- pricing view -->
+    <string name="pricing_view_header">Cost breakdown</string>
+    <string name="pricing_view_miles">%1$s Miles</string>
+    <string name="pricing_view_riders">%1$s Riders</string>
+    <string name="pricing_view_pricing_option">Pricing option</string>
+    <string name="pricing_view_promote">Promote</string>
+    <string name="pricing_view_peak">Peak |</string>
+    <string name="pricing_view_night">Night |</string>
+    <string name="pricing_view_promo">Promo |</string>
+    <string name="pricing_view_base">Base</string>
+
+    <!-- Deeplinking -->
+    <string name="deeplinking_login_msg">You will need to login first\nin order to see this page</string>
+
+    <!-- call driver -->
+    <string name="call_driver">Call driver</string>
+    <string name="call_driver_header">Call driver?</string>
+    <string name="call_driver_confirmation">Would you like to call your driver?</string>
+    <string name="call_driver_charge_warning">( Charges may apply )</string>
+    <string name="call_driver_positive">Call</string>
+    <string name="call_driver_negative">Cancel</string>
+    <string name="call_driver_impossible">Call cannot be performed</string>
+
+    <!-- Home educational -->
+    <string name="home_second_page_title">We\'ll save you cash.</string>
+    <string name="home_third_page_title">We\'re fast and efficient.</string>
+    <string name="home_third_page_description">Our magical algorithm will never take you out of your way.</string>
+    <string name="home_fourth_page_title">Join our community!</string>
+    <string name="log_me_in">Log me in</string>
+    <string name="sign_me_up">Sign me up</string>
+
+    <!-- manual selection -->
+    <string name="select_pickup_location">Select pickup location:</string>
+    <string name="select_dropoff_location">Select dropoff location:</string>
+    <string name="airport_service_inactive_default_header">Via Airports service\nis currently not working</string>
+    <string name="airport_service_default_body">We\'re sorry for the inconvenience,\nPlease try again later</string>
+    <string name="manual_selection_dialog_text1">You\'ll meet your driver at a convenient location - check your app for the exact spot.</string>
+    <string name="manual_selection_dialog_text2">Head out the doors for passenger pickups - check your app for the exact location.</string>
+    <string name="manual_selection_dialog_text3">We\'ll text you with your driver\'s phone number. Call to coordinate if needed!</string>
+    <string name="got_it">Got it!</string>
+
+    <!-- Dropoff suggestions -->
+    <string name="add_home_address">Add Home Address</string>
+    <string name="add_work_address">Add Work Address</string>
+
+    <!-- waiting for assignment screen -->
+    <string name="contacting_nearby_drivers">Contacting nearby drivers</string>
+    <string name="contacting_nearby_taxi_drivers">Contacting nearby taxi drivers</string>
+    <string name="driver_found">driver\nfound</string>
+
+    <!-- Proposals -->
+    <string name="choose_preferred_pickup_time">choose preferred pickup time:</string>
+    <string name="in_x_minutes">In %s min</string>
+    <string name="in">In</string>
+    <string name="min">min</string>
+    <string name="proposal_cost_00">%s.00</string>
+
+    <!-- Via Pass -->
+    <string name="viapass_new">NEW</string>
+    <string name="viapass_autorenew_header">Auto Renew</string>
+    <string name="autorenew_is_activated">Auto renew is activated</string>
+    <string name="autorenew_is_deactivated">Auto renew is deactivated</string>
+    <string name="viapass_question_hint_link_bar">Not ready for a ViaPass?</string>
+    <string name="viapass_suggestion_hint_link_bar">Try Ride Credit!</string>
+
+    <!-- dropoff contacting drivers -->
+    <string name="dropoff_contacting_message_two">Finding the best pickup spot&#8230;</string>
+    <string name="dropoff_contacting_message_three">Calculating thousands of routes&#8230;</string>
+    <string name="dropoff_contacting_message_four">Analyzing traffic data&#8230;</string>
+    <string name="dropoff_contacting_message_five">Finishing up in just a sec&#8230;</string>
+    <string name="between">Between</string>
+
+    <string name="scheduler_time_format">%1$s - %2$s</string>
+
+    <!--Shared Taxi-->
+    <string name="proposal_popup_shared_taxi_header">Welcome to Via\'s Shared Taxi Service!</string>
+    <string name="proposal_popup_shared_taxi_subheader">Save 40% off metered fare!</string>
+    <string name="proposal_popup_shared_taxi_body">Book a TLC licensed taxi and save 40% off the metered fare for any shared portion of your ride</string>
+    <string name="taxi">Taxi</string>
+    <string name="license_plate">LICENSE\nPLATE</string>
+
+    <!-- Rate you ride -->
+    <string name="rate_ride_tell_more_link"><u>Want to tell us more?</u></string>
+    <string name="rate_ride_tell_more_header">Tell us more</string>
+
+    <!-- In ride / Tipping -->
+    <string name="in_ride_tip_driver">Tip your driver</string>
+
+    <string name="address_favorites">Favorites</string>
+</resources>

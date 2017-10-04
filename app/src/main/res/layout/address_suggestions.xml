@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_address_suggest" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/LightGrey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <!--<ImageView
+            android:id="@+id/address_suggestion_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/margin_left_ab_style_navigation_arrow"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/map_set_pickup" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <com.careemwebapp.components.CustomTextView
+                android:id="@+id/address_suggestion_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pickup_location_title"
+                android:textColor="@color/colorPrimary"
+                android:paddingLeft="6dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp">
+
+                <com.careemwebapp.components.CustomEditText
+                    android:id="@+id/address_input_text"
+                    style="@style/FormField"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/ivClearInput"
+                    android:background="@android:color/transparent"
+                    android:inputType="text|textNoSuggestions"
+                    android:paddingBottom="2dp"
+                    android:paddingRight="@dimen/edit_text_padding_right"
+                    android:paddingTop="2dp"
+                    android:paddingLeft="6dp"
+                    android:textSize="@dimen/medium_text_size"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:id="@+id/ivClearInput"
+                    android:layout_width="@dimen/clear_image_size"
+                    android:layout_height="@dimen/clear_image_size"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/ivSearchIcon"
+                    android:src="@mipmap/ic_clear"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/ivSearchIcon"
+                    android:layout_width="@dimen/clear_image_size"
+                    android:layout_height="@dimen/clear_image_size"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:src="@mipmap/address_search"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/address_suggestions_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fadeScrollbars="false" />
+
+</LinearLayout>

@@ -1,0 +1,239 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.careemwebapp.activities.MapActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ActionBarWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/careem_header_logo"
+            android:layout_gravity="center"
+            android:padding="9dp"/>
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rlMarkersHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/ivPickUpMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/pu_map_pin"
+            android:paddingBottom="42dp"
+            android:visibility="visible"/>
+
+        <ImageView
+            android:id="@+id/ivDropOffMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/do_map_pin"
+            android:paddingBottom="42dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/rideBowButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Pickup"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:background="@mipmap/ride_now_button"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/white"
+            android:onClick="onSetPickupClick"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/careemButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Careem"
+            android:paddingRight="2dp"
+            android:background="@mipmap/carrem_button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/careemBusButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="2dp"
+            android:text="Careem Bus"
+            android:background="@mipmap/careem_bus_button"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:onClick="onShowWebAppClick"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:layout_above="@id/buttonsLayout">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pu_icon"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/pu_do_vertical_line"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/do_icon"
+                android:layout_marginTop="13dp"/>
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/delimiter_size"
+            android:layout_marginBottom="@dimen/history_margin_top_bottom_middle"
+            android:layout_marginLeft="50dp"
+            android:background="@color/billing_separator_gray"
+            android:layout_centerVertical="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/divider"
+            android:gravity="center"
+            android:layout_above="@id/divider"
+            android:layout_alignParentTop="true"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left|center"
+                android:layout_marginTop="5dp"
+                android:onClick="resetPickup">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Pin Location"
+                    android:textStyle="bold"
+                    android:textColor="#616161"/>
+
+                <TextView
+                    android:id="@+id/pickupAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="59 12 B St., Dubai, United Arab Emirates"
+                    android:textStyle="bold"
+                    android:textColor="#bbbbbb"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/seach_icon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="15dp"
+                android:onClick="onPickupAddressSearchClick"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/divider"
+            android:gravity="left|center"
+            android:layout_below="@id/divider"
+            android:layout_alignParentBottom="true"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="13dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dropoff"
+                    android:textStyle="bold"
+                    android:textColor="#616161"/>
+
+                <TextView
+                    android:id="@+id/dropoffAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter location"
+                    android:textStyle="bold"
+                    android:textColor="#bbbbbb"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/seach_icon"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:paddingBottom="10dp"
+                android:onClick="onDropoffAddressSearchClick"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

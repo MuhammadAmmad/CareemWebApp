@@ -1,0 +1,44 @@
+package com.careemwebapp.components;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.support.v7.widget.AppCompatEditText;
+import android.text.TextUtils;
+import android.util.AttributeSet;
+
+import com.careemwebapp.FontsStorage;
+import com.careemwebapp.R;
+
+public class CustomEditText extends AppCompatEditText {
+
+    public CustomEditText(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    	String font = null;
+        if (attrs != null) {
+            TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.CustomFontView);
+            font = (String) a.getText(R.styleable.CustomFontView_customFont);
+
+            a.recycle();
+        }
+//        if (TextUtils.isEmpty(font)) {
+//          	font = FontsStorage.FONT_ACCORD_EXTRA_LIGHT;
+//        }
+//        applyFont(font);
+    }
+    
+    public CustomEditText(Context context) {
+        this(context, null, 0);
+    }
+
+    public CustomEditText(Context context, AttributeSet attrs) {
+    	this(context, attrs, 0);
+    }
+    
+    public void applyFont(String fontName) {
+		if (fontName != null) {
+			if (!isInEditMode()) {
+				FontsStorage.applyFont(getContext(), fontName, this);
+			}
+		}
+	}
+}

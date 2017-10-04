@@ -1,0 +1,175 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="map_padding_top">154dp</dimen>
+    <dimen name="map_padding_bottom">60dp</dimen>
+
+    <!-- Dimens for EditText with a clear icon -->
+    <dimen name="clear_image_size">24dp</dimen>
+    <dimen name="edit_text_padding_right">30dp</dimen>
+
+    <dimen name="ultra_small_text_size">12sp</dimen>
+    <dimen name="extra_small_text_size">13sp</dimen>
+    <dimen name="very_small_text_size">14sp</dimen>
+    <dimen name="smaller_text_size">15sp</dimen>
+    <dimen name="small_text_size">16sp</dimen>
+    <dimen name="medium_small_text_size">17sp</dimen>
+    <dimen name="medium_text_size">18sp</dimen>
+    <dimen name="medium_big_text_size">20sp</dimen>
+    <dimen name="middle_small_text_size">24sp</dimen>
+    <dimen name="middle_count_size">26sp</dimen>
+    <dimen name="large_text_size">30sp</dimen>
+    <dimen name="extra_large_text_size">35sp</dimen>
+    <dimen name="verification_text_size">40sp</dimen>
+
+    <dimen name="margin_left_ab_style">17dp</dimen>
+    <dimen name="margin_left_ab_style_navigation_arrow">20dp</dimen>
+
+    <!--Book a ride-->
+    <dimen name="pu_do_min_height">44dp</dimen>
+    <dimen name="pu_do_image_size">27dp</dimen>
+    <dimen name="pu_do_left_margin">10dp</dimen>
+    <dimen name="map_large_text_size">27sp</dimen>
+    <dimen name="map_middle_text_size">23sp</dimen>
+    <dimen name="map_medium_text_size">19sp</dimen>
+    <dimen name="map_show_text_size">10sp</dimen>
+    <dimen name="map_van_number_text_size">40dp</dimen>
+
+    <dimen name="popup_padding">10dp</dimen>
+    <dimen name="popup_margin_left_right">15dp</dimen>
+    <dimen name="popup_pickup_arrow_margin">41dp</dimen>
+
+    <dimen name="pricing_breakdown_dialog_padding">30dp</dimen>
+
+    <dimen name="offer_bubble_shadow_height">1px</dimen>
+
+    <!-- Refer Friends -->
+    <dimen name="share_btn_margin">5dp</dimen>
+    <dimen name="divider_stroke_width_dp">1dp</dimen>
+
+    <dimen name="button_margin_left_right">60dp</dimen>
+
+    <dimen name="layout_height_autofit">40dp</dimen>
+
+    <!-- Favorites -->
+    <dimen name="fav_blue_line_width">10dp</dimen>
+
+    <dimen name="ride_credit_bg_image_height">80dp</dimen>
+    <dimen name="layout_purchase_option_height_autofit">22dp</dimen>
+    <dimen name="ride_big_price_size">47sp</dimen>
+
+    <dimen name="history_margin_left_rigth">16dp</dimen>
+    <dimen name="history_margin_top_bottom_first_last">16dp</dimen>
+    <dimen name="history_margin_top_bottom_middle">8dp</dimen>
+
+    <dimen name="info_window_margin_bottom">10dp</dimen>
+
+    <!-- Educational Home -->
+    <dimen name="dots_margin_top">250dp</dimen>
+    <dimen name="home_text_margin_top">20dp</dimen>
+    <!-- Manual selection -->
+    <dimen name="manual_selection_location_margin_top">25dp</dimen>
+    <dimen name="manual_selection_welcome_margin_top">35dp</dimen>
+    <dimen name="manual_selection_title_margin_top">8dp</dimen>
+    <dimen name="manual_selection_button">30dp</dimen>
+    <dimen name="close_button_margin">5dp</dimen>
+    <dimen name="manual_selection_card_corner_radius">10dp</dimen>
+
+    <dimen name="dropoff_suggestion_item_width">70dp</dimen>
+    <dimen name="dropoff_suggestion_shadow_width">2dp</dimen>
+    <dimen name="map_marker_padding_top">125dp</dimen>
+
+    <dimen name="ripple_anim_base_size">60dp</dimen>
+
+    <!-- 2nd Proposal -->
+    <dimen name="proposal_bg_corner_radius_big">4dp</dimen>
+    <dimen name="proposal_bg_corner_radius_small">3dp</dimen>
+    <dimen name="proposal_bg_padding_big">2dp</dimen>
+    <dimen name="proposal_bg_padding_small">1dp</dimen>
+    <dimen name="proposal_border_width">1dp</dimen>
+    <dimen name="proposal_text_padding">5dp</dimen>
+
+    <!-- history -->
+    <dimen name="history_card_corner_radius">4dp</dimen>
+
+    <dimen name="delimiter_size">1px</dimen>
+
+    <dimen name="drawable_size_large">15dp</dimen>
+    <dimen name="drawable_size_middle">10dp</dimen>
+    <dimen name="drawable_size_medium">6dp</dimen>
+    <dimen name="drawable_size_tiny">4dp</dimen>
+    <dimen name="drawable_size_small">2dp</dimen>
+    <dimen name="drawable_size_small_negative">-2dp</dimen>
+    <dimen name="drawable_size_smallest">1dp</dimen>
+    <dimen name="drawable_size_zero">0dp</dimen>
+    <dimen name="drawable_popup_radius">5dp</dimen>
+
+    <!-- Searching for driver -->
+    <dimen name="marker_loader_dimen">104dp</dimen>
+    <dimen name="marker_layout_margin_top">90dp</dimen>
+    <dimen name="marker_loader_margin_top">30dp</dimen>
+    <dimen name="contacting_drivers_margin_top">50dp</dimen>
+    <dimen name="animation_margin_top">30dp</dimen>
+    <dimen name="cancel_button_margin_top">60dp</dimen>
+    <dimen name="cancel_button_margin_bottom">70dp</dimen>
+    <dimen name="cancel_text_margin_top">5dp</dimen>
+    <dimen name="contacting_nearby_drivers_text_size">23sp</dimen>
+    <dimen name="cancel_text_size">20dp</dimen>
+
+    <dimen name="map_offset_top">10dp</dimen>
+    <dimen name="map_van_offset">25dp</dimen>
+
+    <!-- ViaPass -->
+    <dimen name="viapass_headline_text_size">21sp</dimen>
+    <dimen name="viapass_large_text_size">18sp</dimen>
+    <dimen name="viapass_medium_text_size">15sp</dimen>
+    <dimen name="viapass_small_text_size">13sp</dimen>
+    <dimen name="viapass_new_text_size">10sp</dimen>
+    <dimen name="new_red_bg_corner">12.5dp</dimen>
+    <dimen name="gray_shape_corner">6dp</dimen>
+    <dimen name="menu_var_margin_top">12dp</dimen>
+
+    <!-- BoardingPass -->
+    <dimen name="boarding_pass_large_headline_text_color">24sp</dimen>
+    <dimen name="boarding_pass_headline_text_size">21sp</dimen>
+    <dimen name="boarding_pass_large_text_size">18sp</dimen>
+    <dimen name="boarding_pass_medium_text_size">16sp</dimen>
+
+    <!-- Scheduler picker text size -->
+    <dimen name="scheduler_picker_headline_text_size">18sp</dimen>
+    <dimen name="scheduler_picker_small_text_size">10sp</dimen>
+    <dimen name="scheduler_picker_large_text_size">15sp</dimen>
+    <dimen name="scheduler_picker_medium_text_size">13sp</dimen>
+
+    <!-- My Next Journeys -->
+    <dimen name="journeys_margin">29dp</dimen>
+    <dimen name="journeys_small_margin">5dp</dimen>
+    <dimen name="journeys_medium_margin">8dp</dimen>
+
+    <!-- Proposal -->
+    <dimen name="proposal_left_margin">12dp</dimen>
+    <dimen name="proposal_right_margin">12dp</dimen>
+    <dimen name="proposal_top_margin">12dp</dimen>
+    <dimen name="proposal_divider_size">2px</dimen>
+    <dimen name="proposal_bottom_line_margin">10dp</dimen>
+    <dimen name="proposal_address_padding_top_bottom">7dp</dimen>
+    <dimen name="proposal_address_padding_left_right">8dp</dimen>
+    <dimen name="proposal_padding">10dp</dimen>
+    <dimen name="proposal_main_text_size">@dimen/medium_text_size</dimen>
+    <dimen name="proposal_description_eta_text_size">@dimen/medium_small_text_size</dimen>
+    <dimen name="proposal_cost_text_size">@dimen/very_small_text_size</dimen>
+    <dimen name="proposal_toll_text_size">@dimen/very_small_text_size</dimen>
+    <dimen name="proposal_button_text_size">@dimen/medium_big_text_size</dimen>
+    <dimen name="proposal_time_value_text_size">21sp</dimen>
+    <dimen name="proposal_progress_bar_height">5dp</dimen>
+
+    <!-- In ride -->
+    <dimen name="in_ride_enjoy_layout_margin">15dp</dimen>
+
+    <!-- customDialog -->
+    <dimen name="custom_dialog_text_padding">20dp</dimen>
+    <dimen name="custom_dialog_buttons_delimiter">2dp</dimen>
+
+</resources>

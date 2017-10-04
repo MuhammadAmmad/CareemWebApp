@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28bc4e</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="whiteDisabled">#90ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#f0ffffff</color>
+
+    <color name="action_bar_bg">#20b8e9</color>
+    <color name="light_gray">#cdcdcd</color>
+
+    <color name="drawerButtonPressed">#EDEDED</color>
+    <color name="drawerItemText">#555558</color>
+    <color name="drawerSecondaryItemText">#999999</color>
+
+    <color name="inputTextColor">#777777</color>
+    <color name="inputTextHintColor">#bbbabb</color>
+
+    <color name="transparentGray">#44000000</color>
+    <color name="firstTransparentGray">#06000000</color>
+    <color name="secondTransparentGray">#02000000</color>
+    <color name="main_text_color">#434343</color>
+
+    <color name="favorite_custom_text_color">@color/pickup_text_color</color>
+    <color name="favorite_work_text_color">@color/pickup_text_color</color>
+    <color name="favorite_home_text_color">@color/pickup_text_color</color>
+
+    <color name="main_screen_bg">#21b8e9</color>
+
+    <color name="map_description_text_color">#9A9996</color>
+    <color name="map_boarding_pass_description_color">#14a4d2</color>
+    <color name="map_location_info_bg">#CCffffff</color>
+
+    <color name="white_transparent">#89ffffff</color>
+    <color name="blue_transparent">#3721b8e9</color>
+    <color name="info_popup_border">#1ba4d1</color>
+
+    <color name="breakdown_total_background_color">#f6f6f6</color>
+    <color name="breakdown_dots_color">#dbdbdb</color>
+    <color name="breakdown_text_color">#555555</color>
+    <color name="breakdown_description_color">#888888</color>
+
+    <color name="refer_friends_divider_color">#dbdbdb</color>
+    <color name="share_button_text_color">#555558</color>
+
+    <color name="about_copyright_color">#8f8f8f</color>
+    <color name="about_tos_blue">@color/primary_btn_color</color>
+    <color name="about_tos_blue_pressed">@color/primary_btn_pressed_color</color>
+
+    <color name="billing_separator_gray">#dbdbdb</color>
+    <color name="billing_background_ligh_gray">#f6f6f6</color>
+
+    <color name="drawer_button_text_color">#587a96</color>
+    <color name="drawer_button_text_color_orange">#ff8401</color>
+    <color name="drawer_phone_text_color">#c6e5f4</color>
+
+    <color name="favorites_background_color">#f6f6f6</color>
+    <color name="favorites_address_color">#555555</color>
+    <color name="favorites_disabled_color">#dddddd</color>
+    <color name="dim_map_color">#4020b8e9</color>
+
+    <color name="history_gray">#d6d7d7</color>
+    <color name="history_post_date_color">#8f8f8f</color>
+
+    <color name="out_zone_map_color">#60555555</color>
+    <color name="map_button_disabled">#555555</color>
+    <color name="searching_for_driver_bg">#95000000</color>
+    <color name="set_dropoff_animation_bg">#80000000</color>
+
+    <color name="LightGrey">#ffe1dedf</color>
+
+    <color name="ride_credit_divider_color">#e3e3e3</color>
+    <color name="ride_credit_main_text_color">#555555</color>
+    <color name="ride_credit_description_color">#8f8f8f</color>
+
+    <color name="passengers_count_change_delimiter_gray">#bbbbbb</color>
+
+    <color name="suggestions_header_color">#d3d3d3d3</color>
+
+    <color name="dropoff_suggestions_bg_color">#f0ffffff</color>
+    <color name="dropoff_suggestions_pressed_bg_color">#F2F2F2</color>
+    <color name="dropoff_suggestion_shadow_color">#ffbcb9ba</color>
+    <color name="dropoff_add_text_color">#80777777</color>
+
+    <!-- 2nd proposal -->
+    <color name="proposal_vertical_divider_color">#aaaaaa</color>
+
+    <!-- ViaPass -->
+    <color name="viapass_header_color">#555555</color>
+    <color name="viapass_subheader_color">#888888</color>
+    <color name="viapass_accent_color">@color/colorPrimary</color>
+    <color name="viapass_gray_border">#e3e3e3</color>
+
+    <!-- BoardingPass -->
+    <color name="boarding_pass_header_color">#555555</color>
+    <color name="boarding_pass_button_color">#00b8e6</color>
+
+    <!-- Rate your ride -->
+    <color name="rate_ride_disabled_gray">#aaaaaa</color>
+    <color name="rate_ride_subinfo_text_color">#888888</color>
+    <color name="rate_ride_label_text_color">#555555</color>
+    <color name="rate_ride_message_text_color">#e6aaaaaa</color>
+    <!-- Proposals -->
+    <color name="proposal_main_text_color">#666666</color>
+    <color name="proposal_selected_text_color">#000000</color>
+    <color name="proposal_unselected_text_color">#737373</color>
+    <color name="proposal_disabled_text_color">#7f7f7f</color>
+
+    <!-- Announcement -->
+    <color name="announcement_dark_color">#555555</color>
+    <color name="announcement_body_color">#888888</color>
+
+    <color name="airport_separator">#cccccc</color>
+
+    <!-- Linker bar -->
+    <color name="linker_bar_color">#ddf4fc</color>
+
+    <color name="colorPrimaryDarken">#30c8d9</color>
+
+    <color name="error_text_red">#e5583c</color>
+    <color name="history_card_red">#e13131</color>
+    <color name="remove_cc_red_bg">#e94f20</color>
+
+    <!-- cc screens -->
+    <color name="loginSignupTextBlue">#36b8e9</color>
+
+    <!-- Dropoff-->
+    <color name="dropoff_text_color">#f5841f</color>
+    <color name="pickup_text_color">#24b8e8</color>
+    <color name="primary_btn_color">@color/colorPrimary</color>
+    <color name="primary_btn_pressed_color">@color/map_boarding_pass_description_color</color>
+
+    <!-- ViaPass -->
+    <color name="viapass_new_red_bg">#e13131</color>
+
+    <color name="favorites_name_color">#21b8e9</color>
+
+    <!-- dropoff btn color -->
+    <color name="dropoff_button">#ff8400</color>
+    <color name="dropoff_button_pressed">#e67700</color>
+
+    <!-- History -->
+    <color name="history_card_header">#e0f5fb</color>
+    <color name="history_date_color">@color/breakdown_text_color</color>
+    <color name="history_time_color">@color/colorPrimary</color>
+    <color name="history_details_background">@color/transparent</color>
+
+    <!-- BoardingPass -->
+    <color name="boarding_pass_divider_color">#20b8ea</color>
+    <color name="boarding_pass_divider_gray_color">#cccccc</color>
+    <color name="boarding_pass_shared_taxi_yellow">#face36</color>
+
+    <!-- SharedTaxi -->
+    <color name="shared_taxi_yellow">#fece4c</color>
+    <color name="shared_taxi_yellow_dark">#e5b533</color>
+    <color name="shared_taxi_dark_color">#555555</color>
+    <color name="shared_taxi_announcement_body_color">#888888</color>
+    <color name="shared_taxi_popup_header_color">#f9c614</color>
+
+    <!-- Proposals -->
+    <color name="proposal_btn_text_color">#333333</color>
+
+    <!-- Boarded -->
+    <color name="boarded_blue_color">#48b7ed</color>
+    <color name="boarded_yellow_color">#f9c614</color>
+    <color name="boarded_dark_color">#555555</color>
+    <color name="boarded_subtitle_color">#aaaaaa</color>
+    <color name="boarded_divider_color">#aaaaaa</color>
+
+    <!-- Tipping -->
+    <color name="tips_gray_border">#aaaaaa</color>
+
+    <!-- Personal meter -->
+    <color name="personal_meter_color">#f9c614</color>
+    <color name="personal_meter_disabled_color">#77f9c614</color>
+
+    <color name="eta_delay_text_color">#555555</color>
+</resources>

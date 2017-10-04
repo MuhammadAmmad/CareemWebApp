@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.careemwebapp.components.CustomTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/suggestions_header_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/suggestions_header_color"
+    android:paddingBottom="3dp"
+    android:paddingLeft="@dimen/margin_left_ab_style_navigation_arrow"
+    android:paddingTop="3dp"
+    android:text="@string/address_suggestions"
+    android:textSize="@dimen/small_text_size" />

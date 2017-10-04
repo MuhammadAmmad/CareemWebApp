@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+        <shape>
+            <solid
+                android:color="@color/primary_btn_pressed_color" />
+            <padding
+                android:bottom="@dimen/drawable_size_zero"
+                android:left="@dimen/drawable_size_zero"
+                android:right="@dimen/drawable_size_zero"
+                android:top="@dimen/drawable_size_zero" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/colorPrimary" />
+            <padding
+                android:bottom="@dimen/drawable_size_zero"
+                android:left="@dimen/drawable_size_zero"
+                android:right="@dimen/drawable_size_zero"
+                android:top="@dimen/drawable_size_zero" />
+        </shape>
+    </item>
+</selector>
